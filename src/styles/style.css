@@ -1,7 +1,55 @@
-/** CSS STYLE **/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-.hello {
-  display: block;
-
-  color: #fff;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+:root {
+	--color-white: #fff;
+	--color-translucent-white: #d7ccc0;
+	--color-light: #f5f4f0;
+	--color-basic: #fe8a02;
+	--color-basic-dark: #42413c;
+	--color-dark: #2a2626;
+	--color-translucent-dark: #908d8b;
+	--color-brown: #b09a81;
+	--color-blue: #1085c5;
+	--basic-font: 'Open Sans', sans-serif;
+	--heading-font: 'Neucha', cursive;
+	--heading-h1-orange: normal 400 72px/86px 'Neucha', cursive;
+	--heading-h1-black: normal 400 72px/72px 'Neucha', cursive;
+	--heading-h2: normal 400 60px/72px 'Neucha', cursive;
+	--heading-h3: normal 400 34px/41px 'Neucha', cursive;
+	--main-sections-text: normal 400 16px/26px 'Open Sans', sans-serif;
+	--main-sections-translucent-text: normal 400 24px/29px 'Neucha', cursive;
+	--main-section-text-how-does-manifest: normal 700 14px/17px 'Open Sans', sans-serif;
+	--main-section-text-number: normal 400 64px/70px 'Neucha', cursive;
+	--main-section-text-btn: normal 700 16px/26px 'Open Sans', sans-serif;
+	--section-width-content: 1100px;
+	--section-align-center-content: center;
+	--container-margin-top-bottom: 100px 0px 100px 0px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: var(--section-align-center-content);
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: var(--section-align-center-content);
+	max-width: 1110px;
+	min-height: 900px;
+  
+	margin: 0 auto;
+  }
+  
