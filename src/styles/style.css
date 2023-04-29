@@ -258,3 +258,86 @@ a.card {
 .link-card {
 	text-decoration: none;
 }
+
+.info-cont {
+	display: flex;
+	flex-direction: row;
+}
+
+.display-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.mr-100 {
+	margin-top: 100px;
+}
+
+.mr-20 {
+	margin-bottom: 20px;
+}
+
+.row-text-main-section {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	font: var(--main-sections-text);
+}
+
+
+.translucent-text-dark {
+	font:var(--main-sections-translucent-text);
+	color:var(--color-translucent-dark);
+}
+
+.translucent-text-light {
+	font:var(--main-sections-translucent-text);
+	color:var(--color-translucent-white);
+}
+
+.heading-h3 {
+	font: var(--heading-h3);
+}
+
+.mr-30 {
+	margin-bottom: 30px;
+}
+
+.bcg-how-dark {
+	background-color: var(--color-brown);
+	width: 1110px;
+	height: 26px;
+}
+
+.bcg-how-light {
+	background-color: var(--color-light);
+	width: 1110px;
+	height: 26px;
+}
+
+.text-how-does-manifest-white {
+	font: var(--main-section-text-how-does-manifest);
+	color: var(--color-white);
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.text-how-does-manifest-dark {
+	font: var(--main-section-text-how-does-manifest);
+	color: var(--color-brown);
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.bcg-color-dark {
+	background-color: var(--color-brown);
+}
+
+.mr-30-left {
+	margin-left: 30px;
+}
+
+.mr-30-right {
+	margin-right: 30px;
+}
+
